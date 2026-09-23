@@ -23,16 +23,15 @@ A lightweight, secure, and user-friendly PHP dashboard for managing online payme
 
 ---
 ## 📂 Project Structure
-<pre style="font-size: 1.2rem; line-height: 1.5; background: #f8fafc; padding: 12px; border-radius: 6px;">
-```text
+<pre style="font-size: 1.2rem; line-height: 1.5; background: auto; padding: 12px; border-radius: 6px;">
 paymongo-dashboard/
-├── conn.php # Database connection settings (PDO)
-├── index.php # Main dashboard view, transaction table, and modal configurations
-├── create_payment.php # Handles communication with PayMongo Checkout API
-├── process_refund.php # Handles PayMongo refund requests and database status updates
-├── paymongo_keys.php # Auto-generated file storing your API keys.
-└── style.css # Custom styles and layout rules
-```
+ |
+ ├── conn.php # Database connection settings (PDO)
+ ├── index.php # Main dashboard view, transaction table, and modal configurations
+ ├── create_payment.php # Handles communication with PayMongo Checkout API
+ ├── process_refund.php # Handles PayMongo refund requests and database status updates
+ ├── paymongo_keys.php # Auto-generated file storing your API keys.
+ └── style.css # Custom styles and layout rules
 </pre>
 
 ---
